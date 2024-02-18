@@ -7,18 +7,19 @@ int main()
     int a, b, sum;
     a = input();
     b = input();
-    sum = add(a, b);
+    add=sum(a, b);
     output(a, b, sum);
 }
 int input()
 {
     int a,b;
     printf("Enter the value of a and b: ");
-    scanf("%d %d",&a &b);
+    scanf("%d %d", &a &b);
     return 0;
 }
 int add(int a, int b)
 {
+    
     sum = a + b;
     return sum;
 }
