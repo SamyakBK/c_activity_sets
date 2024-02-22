@@ -4,11 +4,11 @@ int compare(int a, int b, int c);
 void output(int a, int b, int c, int largest);
 int main()
 {
-    int a,b,,c,largest;
+    int a,b,c,largest;
     a=input();
     b=input();
     c=input();
-    compare=(a,b,c);
+    compare =(a,b,c);
     output(a,b,c,largest);
     return 0;
 }
@@ -19,11 +19,10 @@ int input()
     scanf("%d %d %d",&a ,&b, &c);
     return a,b,c;
 }
-int compare(int a, int b, int c)
+int compare(int a, int b, int c,int largest); 
 {
-    if (a>=b && a>=c)
     {
-        a=largest;
+        largest=a;
         return largest;
     }
     if (b>=c)
