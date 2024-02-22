@@ -8,7 +8,7 @@ int main()
     a=input();
     b=input();
     c=input();
-    compare =(a,b,c);
+    largest=compare(a,b,c);
     output(a,b,c,largest);
     return 0;
 }
@@ -19,7 +19,7 @@ int input()
     scanf("%d %d %d",&a ,&b, &c);
     return a,b,c;
 }
-int compare(int a, int b, int c,int largest); 
+int compare(int a, int b, int c,int largest)
 {
     {
         largest=a;

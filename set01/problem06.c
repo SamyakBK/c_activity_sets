@@ -10,12 +10,9 @@ int main()
     output(a,b,c,largest);
     return 0; 
 }
-int input(int *a, int *b, int *c)
-{
-    int a,b,c;
+int input(int *a, int *b, int *c){
     printf("Enter the value of a ,b and c\n");
     scanf("%d %d %d",&a,&b,&c);
-    return a,b,c;
 }
 void compare(int a, int b, int c, int *largest)
 {
