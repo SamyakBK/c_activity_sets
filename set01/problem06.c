@@ -18,15 +18,15 @@ void compare(int a, int b, int c, int *largest)
 {
     if (a>=b && a>=c)
     {
-        a=*largest;
+        *largest=a;
     }
     if (b>=c)
     {
-        b=*largest;
+        *largest=b;
     }
     else
     {
-        c=*largest;
+        *largest=c;
     }
 }
 void output(int a, int b, int c, int largest)
