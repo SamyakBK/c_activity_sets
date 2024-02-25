@@ -27,12 +27,12 @@ int sum_n_nos(int n)
   for(i=1 ; i<=n ; i++)
   {
     sum += i;
-    //sum = n * (n+1) / 2; [Formula]
+    
   }
   return sum;
 }
 
 void output(int n, int sum)
 {
-  printf("The sum of %d natural numbers are : %d\n",n,sum);
+  printf("The sum of %d natural numbers are : %d\n",n, sum);
 }
